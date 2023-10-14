@@ -87,6 +87,10 @@ main section img{
     height: 725px;
     background-color: #B09F0B;
 }
+.mountains{
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
 .msg{
     background-color: #B09F0B;
     line-height: 1.5em;
