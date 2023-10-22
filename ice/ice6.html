@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherry Baby</title>
+    <style>
+        .gridcontainer{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            -ms-grid-layer: 2;
+        }
+        .tart{
+            text-align: center;
+            grid-row: 1/3;
+        }
+        img{
+            max-width: 500px;
+        }
+        .cherry{
+            text-align: center;
+            color: red;
+        }
+        .img{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gridcontainer">
+        <div class="tart"><h1>Tart &</h1> <img src="img/w06_cherries.png" alt="Cherries"></div>
+        <h1>Sweet</h1>
+        <h2 class="cherry">Cherry</h2>
+    </div>
+</body>
+</html>
