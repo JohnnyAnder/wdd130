@@ -107,7 +107,7 @@ main section img{
     box-sizing: border-box;
 }
 .img-grid{
-    max-width: 500px;
+    max-width: 100%;
 }
 .rivers-card{
     margin: 200px 0;
@@ -254,5 +254,8 @@ footer .social img{
     }
     footer {
         margin-top: 25px;
+    }
+    .stat-grid{
+        display: inline;
     }
 }
