@@ -258,4 +258,7 @@ footer .social img{
     .stat-grid{
         display: inline;
     }
+    .dang-img{
+        max-width: 90%;
+    }
 }
