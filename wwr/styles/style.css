@@ -7,9 +7,11 @@ body{
     margin: 0;
     padding: 0;
 }
-#content{
+.content{
     max-width: 1600px;
     margin: 0 auto;
+}
+.page{
 }
 #logo_link{
     padding-top: 5px;
@@ -89,11 +91,18 @@ main{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
+.stat-grid{
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
 main section{
     text-align: center;
 }
 main section img{
     box-sizing: border-box;
+}
+.img-grid{
+    max-width: 500px;
 }
 .rivers-card{
     margin: 200px 0;
@@ -142,6 +151,12 @@ main section img{
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg-grid{
+    background-color: burlywood;
+    line-height: 1.5em;
+    padding: 35px;
     box-shadow: 5px 5px 10px #6f7364;
 }
 .msg h2{
