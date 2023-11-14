@@ -94,9 +94,16 @@ main{
 .stat-grid{
     display: grid;
     grid-template-columns: 500px 500px;
+    justify-content: center;
 }
 main section{
     text-align: center;
+}
+.main{
+    text-align: center;
+}
+.center{
+    display: contents;
 }
 main section img{
     box-sizing: border-box;
